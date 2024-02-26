@@ -1,0 +1,266 @@
+body{
+    background-color: #0F0D13;
+}
+
+.square {
+    width:1350px;
+    height: 75px;
+    border-bottom-color: white;
+    background-color:black;
+    left: 30px;
+    right: 10px;
+}
+
+hr{
+    top: 20px;
+    bottom: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  #atom {
+    position : absolute;
+    right: 500px;
+    left: 430px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    weight:100px;
+    height: 50px;
+  }
+
+  #triangle{
+    position: absolute;
+    margin-right: 750px;
+    margin-left: 625px;
+    margin-top: 1500px;
+    margin-bottom: 400px;
+    animation-name: example;
+    animation-duration: 3s;  
+  animation-delay: 2s;
+ animation-fill-mode: both;
+    
+  }
+  
+  @keyframes example {
+    from {top: 0px;}
+  to {top: 100px;}
+  }
+
+  #image_1{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 700px;
+    margin-bottom: 1000px;
+  }
+
+  #image_2{
+    position: absolute;
+    left: 650px;
+    right: 1150px;
+    margin-top: 700px;
+    margin-bottom: 1000px;
+  }
+
+  #image_3{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 1650px;
+    margin-bottom: 3600px;
+  }
+
+  #image_4{
+    position: absolute;
+    left: 650px;
+    right: 1150px;
+    margin-top: 1650px;
+    margin-bottom: 3600px;
+  }
+
+  .order{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 2586px;
+    margin-bottom: 5400px;
+  }
+
+  .order_button{
+    position: absolute;
+    left: 900px;
+    right: 1800px;
+    margin-top: 3025px;
+    margin-bottom: 6150px;
+  }
+
+  #contacts{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin-top: 3100px;
+    margin-bottom: 6040px;
+    
+  
+  }
+
+  .logo{
+    position: absolute;
+    right: 100px;
+    left: 50px;
+    top: 20px;
+    bottom: 5px;
+  }
+
+  .order-now {
+    position: absolute;
+    left: 500px;
+    right: 900px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  #Home {
+    position: absolute;
+    left: 750px;
+    right: 1000px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #About {
+    position: absolute;
+    left: 900px;
+    right: 1150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #Pages {
+    position: absolute;
+    left: 1050px;
+    right: 1250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #Contact {
+    position: absolute;
+    left: 1200px;
+    right: 1350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .fast{
+    position: absolute;
+    text-align: left;
+    left: 300px;
+    right: 850px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .creativity{
+    position: absolute;
+    text-align: left;
+    left: 250px;
+    right: 750px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .details{
+    position: absolute;
+    text-align: left;
+    left: 180px;
+    right: 750px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .target{
+    position: absolute;
+    text-align: left;
+    left: 200px;
+    right: 850px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+ 
+  .list-target{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+   margin-right: 35px;
+    margin-bottom: 10px;
+  }
+
+.list-creativity{
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+   margin-right: 35px;
+}
+.list-details{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+   margin-right: 35px;
+    margin-bottom: 10px;
+}
+.list-fast{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+ text-align: left;
+    margin-left: 130x;
+   margin-right: 260px;
+}
+#contact-us {
+  position: absolute;
+  top: 50px;
+  bottom: 25px;
+  right: 50px;
+  left: 25px;
+}
+.details-contact{
+  position: absolute;
+  top: 100px;
+  bottom: 50px;
+}
+#facebook{
+  position: absolute;
+  top: 300px;
+  bottom: 1550px;
+  scale: 1;
+}
+#linkedin{
+  position: absolute;
+  top: 300px;
+  bottom: 1550px;
+  right: 250px;
+  left: 125px;
+  scale: 1;
+}
+#behance{
+  position: absolute;
+  top: 300px;
+  bottom: 1550px;
+  right: 600px;
+  left: 220px;
+  scale: 1;
+}
+#socialmedia {
+  position: absolute;
+  top: 230px;
+  bottom: 150px;
+  right: 50px;
+  left: 25px;
+}
+#call{
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  margin-left: 3px;
+  width: 1px;
+  height: 1px;
+
+}
